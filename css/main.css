@@ -39,4 +39,14 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+#hero {
+  width: 100%;
+}
+#hero .container .hero {
+  width: 100%;
+  border-radius: 10px;
+  background: #A2A2A2;
+  padding: 117px 85px;
 }/*# sourceMappingURL=main.css.map */
