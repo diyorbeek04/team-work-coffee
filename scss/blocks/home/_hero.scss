@@ -1,0 +1,44 @@
+#hero{
+    width: 100%;
+    margin-top: 20px;
+    .container{
+        .hero{
+            width: 100%;
+            border-radius: 10px;
+            background: #A2A2A2;
+            padding: 117px 85px;
+            h1{
+                width: 493px;
+                font-family: "Fraunces 900";
+                color: #FEFCF7;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 72px; /* 100% */
+            }
+            p{
+                width: 445px;
+                color: #FEFCF7;
+                font-family: "Barlow 400";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px; 
+                padding-top: 32px;
+                margin-bottom: 56px;
+            }
+            a{
+                color: #FEFCF7;
+                text-align: center;
+                font-family: "Fraunces 900";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 25px;
+                padding: 15px 31px;
+                border-radius: 6px;
+                background-color: #0E8784;
+            }
+        }
+    }
+}

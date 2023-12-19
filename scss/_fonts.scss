@@ -6,3 +6,19 @@
     src: local(""),
     url('../fonts/Barlow/Barlow-Bold.ttf') format('woff');
 }
+// BARLOW 400
+@font-face {
+    font-family: "Barlow 400";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+    url('../fonts/Barlow/Barlow-Regular.ttf') format('woff');
+}
+// Fraunces 900
+@font-face {
+    font-family: "Fraunces 900";
+    font-style: normal;
+    font-weight: 900;
+    src: local(""),
+    url('../fonts//Fraunces/static/Fraunces_144pt-Black.ttf') format('woff');
+}
