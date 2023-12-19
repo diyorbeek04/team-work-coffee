@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Barlow 700";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Barlow/Barlow-Bold.ttf") format("woff");
+}
 * {
   margin: 0;
   padding: 0;
@@ -39,4 +45,55 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+body {
+  background-color: #FEFCF7;
+}
+
+#header {
+  width: 100%;
+  display: block;
+}
+#header .container .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .container .header .logo {
+  width: 40%;
+  padding: 10px;
+}
+#header .container .header .logo img {
+  width: 70%;
+  height: auto;
+}
+#header .container .header .navbar {
+  width: 30%;
+}
+#header .container .header .navbar ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .container .header .navbar ul li a {
+  font-family: "Barlow 700";
+  color: #83888F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+  padding: 24px;
+}
+#header .container .header .navbar ul li .current {
+  background-color: #999;
+  color: #fff;
+}
+#header .container .header .navbar ul li a:hover {
+  background-color: #999;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

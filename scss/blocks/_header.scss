@@ -1,0 +1,53 @@
+body{
+    background-color: #FEFCF7;
+}
+#header{
+    width: 100%;
+    display: block;
+    .container{
+        .header{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo{
+                width: 40%;
+                padding: 10px;
+                img{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            .navbar{
+                width: 30%;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        a{
+                            font-family: "Barlow 700";
+                            color: #83888F;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 15px; 
+                            letter-spacing: 0.923px;
+                            text-transform: uppercase;
+                            padding: 24px;
+                        }
+                        .current{
+                            background-color: #999;
+                            color: #fff;
+                        }
+                        a:hover{
+                            background-color: #999;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
