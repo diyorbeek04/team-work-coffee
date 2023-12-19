@@ -96,4 +96,82 @@ body {
 #header .container .header .navbar ul li a:hover {
   background-color: #999;
   color: #fff;
+}
+#header .container .header .navbar .menu {
+  display: none;
+}
+@media only screen and (max-width: 1223px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .navbar {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 1108px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .navbar {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 974px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .navbar {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 871px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .navbar {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 789px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .navbar {
+    width: 55%;
+  }
+  #header .container .header .navbar ul li a {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 661px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .navbar {
+    width: 60%;
+  }
+  #header .container .header .navbar ul li a {
+    font-size: 9px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 541px) {
+  #header .container {
+    width: 95%;
+  }
+  #header .container .header .logo {
+    width: 50%;
+  }
+  #header .container .header .logo img {
+    width: 100%;
+  }
+  #header .container .header .navbar {
+    width: 5%;
+  }
+  #header .container .header .navbar ul {
+    display: none;
+  }
+  #header .container .header .navbar .menu {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -37,6 +37,7 @@ body{
                             text-transform: uppercase;
                             padding: 24px;
                         }
+                        
                         .current{
                             background-color: #999;
                             color: #fff;
@@ -47,7 +48,114 @@ body{
                         }
                     }
                 }
+                .menu{
+                    display: none;
+                }
             }
+        }
+    }
+    @media only screen and (max-width: 1223px) {
+        .container{
+            width: 95%;
+            .header{
+                .navbar{
+                    width: 35%;
+                }
+            }
+            
+        }
+    }
+    @media only screen and (max-width: 1108px) {
+        .container{
+            width: 95%;
+            .header{
+                .navbar{
+                    width: 40%;
+                }
+            }
+            
+        }
+    }
+    @media only screen and (max-width: 974px) {
+        .container{
+            width: 95%;
+            .header{
+                .navbar{
+                    width: 45%;
+                }
+            }
+            
+        }
+    }
+    @media only screen and (max-width: 871px) {
+        .container{
+            width: 95%;
+            .header{
+                .navbar{
+                    width: 50%;
+                }
+            }
+            
+        }
+    }
+    @media only screen and (max-width: 789px) {
+        .container{
+            width: 95%;
+            .header{
+                .navbar{
+                    width: 55%;
+                    ul{
+                        li{
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    @media only screen and (max-width: 661px) {
+        .container{
+            width: 95%;
+            .header{
+                .navbar{
+                    width: 60%;
+                    ul{
+                        li{
+                            a{
+                                font-size: 9px;
+                                padding: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    @media only screen and (max-width: 541px) {
+        .container{
+            width: 95%;
+            .header{
+                .logo{
+                    width: 50%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .navbar{
+                    width: 5%;
+                    ul{
+                        display: none;
+                    }
+                    .menu{
+                        display: block;
+                    }
+                }
+            }
+            
         }
     }
 }
