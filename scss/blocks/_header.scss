@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #FEFCF7;
 }
@@ -157,5 +158,17 @@ body{
             }
             
         }
+=======
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+>>>>>>> 4bdac0db0e653ad30371a080909b02e6ac50bb15
     }
 }

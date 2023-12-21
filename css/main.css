@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: "Barlow 700";
   font-style: normal;
@@ -8,43 +9,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+=======
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+>>>>>>> 4bdac0db0e653ad30371a080909b02e6ac50bb15
 }
-
-body {
-  font-family: "Lato", "Raleway", "Arial", sans-serif;
-}
-
-.container {
-  max-width: 1240px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-.huge-container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
-  margin: -1px;
-}
-
-ul {
+.header ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
 }
 
-a {
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.header ul li {
+  margin: 0px;
+}
+.header ul a {
   text-decoration: none;
+<<<<<<< HEAD
 }
 
 body {
@@ -81,10 +79,15 @@ body {
 #header .container .header .navbar ul li a {
   font-family: "Barlow 700";
   color: #83888F;
+=======
+  color: #83888F;
+  font-family: "Barlow";
+>>>>>>> 4bdac0db0e653ad30371a080909b02e6ac50bb15
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 15px;
+<<<<<<< HEAD
   letter-spacing: 0.923px;
   text-transform: uppercase;
   padding: 24px;
@@ -174,4 +177,62 @@ body {
   #header .container .header .navbar .menu {
     display: block;
   }
+=======
+  /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url "./hero-img.png";
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  color: #FEFCF7;
+  font-family: " Fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  /* 100% */
+}
+.hero p {
+  color: #FEFCF7;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+.header ul li {
+  margin: 0px;
+}
+.header ul a {
+  text-decoration: none;
+  color: #83888F;
+  font-family: "Barlow";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+>>>>>>> 4bdac0db0e653ad30371a080909b02e6ac50bb15
 }/*# sourceMappingURL=main.css.map */
