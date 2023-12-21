@@ -1,0 +1,27 @@
+.hero {
+    background-image: url(./hero-img.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        color: #FEFCF7;
+        font-family: " Fraunces 9pt";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        /* 100% */
+    }
+    p {
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+    }
+
+
+}

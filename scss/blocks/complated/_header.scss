@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 35%;
+
+        li {
+            margin: 0px;
+        }
+        a {
+            text-decoration: none;
+            color: #83888F;
+            font-family: "Barlow";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15px;
+            /* 125% */
+            letter-spacing: 0.923px;
+            text-transform: uppercase;
+        }
+    }
+}
