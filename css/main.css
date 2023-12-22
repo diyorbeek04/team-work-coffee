@@ -238,3 +238,36 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px;
 }
+.coffee{
+  display: flex;
+  margin-top: 50px;
+  height: 447px;
+  background-color:black;
+}
+.coffee__right{
+  margin-top: 100px;
+  margin-left:50px ;
+}
+.coffee__right--h2{
+  color: #FEFCF7;
+
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+.coffee__right--p{
+  width: 540px;
+  color: #FEFCF7;
+  
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.coffee__left--img{
+  margin-left: 150px;
+  margin-top: -100px;
+}
