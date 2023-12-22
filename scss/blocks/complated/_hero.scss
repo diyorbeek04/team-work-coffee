@@ -1,8 +1,6 @@
 .hero {
-    background-image: url"./hero-img.png";
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 100px;
 
     h1 {
         color: #FEFCF7;
@@ -11,11 +9,13 @@
         font-style: normal;
         font-weight: 900;
         line-height: 72px;
-        /* 100% */
+        margin: 30px;
     }
     p {
-        color: #FEFCF7;
+        color: #d3690d;
         font-family: "Barlow";
+        margin: 30px;
+        width: 450px;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

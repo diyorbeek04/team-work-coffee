@@ -40,11 +40,18 @@
   text-transform: uppercase;
 }
 
+.hambuger {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .header--list {
+    display: none;
+  }
+}
 .hero {
-  background-image: url "./hero-img.png";
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 .hero h1 {
   color: #FEFCF7;
@@ -53,15 +60,90 @@
   font-style: normal;
   font-weight: 900;
   line-height: 72px;
-  /* 100% */
+  margin: 30px;
 }
 .hero p {
+  color: #d3690d;
+  font-family: "Barlow";
+  margin: 30px;
+  width: 450px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(43, 40, 51);
+  height: 550px;
+}
+.cards .cards--1 {
+  width: 35%;
+  height: 350px;
+  margin: 50px;
+}
+.cards .cards--1 h2 {
+  color: #FDD6BA;
+  font-family: "Fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+.cards .cards--1 p {
   color: #FEFCF7;
+  width: 332px;
   font-family: "Barlow";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  /* 162.5% */
+}
+.cards .cards--1 span {
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  /* 112.5% */
+}
+.cards .cards--2 {
+  width: 35%;
+  height: 350px;
+  margin: 30px;
+}
+.cards .cards--2 h2 {
+  color: #FDD6BA;
+  font-family: "Fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+.cards .cards--2 p {
+  color: #FEFCF7;
+  width: 332px;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+.cards .cards--2 span {
+  color: #FEFCF7;
+  width: 180px;
+  font-family: "Fraunces 9pt";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  /* 112.5% */
 }
 
 .header {

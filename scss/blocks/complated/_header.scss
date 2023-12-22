@@ -27,4 +27,16 @@
             text-transform: uppercase;
         }
     }
+    }
+    .hambuger{
+        display: none;
+    }
+
+@media only screen and (max-width:375px) {
+    .header--list {
+      display: none;
+    }
+    
+  
+    
 }
