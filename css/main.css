@@ -204,3 +204,37 @@ line-height: 26px;
   margin-left: 85px;
   margin-top: -330px;
 }
+.commitment{
+  display: flex;
+  margin-top: 250px;
+}
+.commitment--right__img{
+  margin-left: 50px;
+  width: 485px;
+height: 606px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 1px 1px / 100% 100% no-repeat;
+}
+.commitment--left{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.commitment--left__h2{
+  color: #333D4B;
+
+font-family: Fraunces 9pt;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px;
+}
+.commitment--left__p{
+  width: 540px;
+color: #333D4B;
+
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
